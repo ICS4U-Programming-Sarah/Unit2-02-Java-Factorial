@@ -86,17 +86,18 @@ public final class Factorial {
 
     /**
     * This function uses recursion to
-    * reverse a string.
+    * calculate recursion.
     *
     * @param aNum passed
     * @return recFactorial.
     */
 
     public static double recFactorial(double aNum) {
-        // Checking to see if line is empty.
+        // Calculates factorial.
         if (aNum <= 1) {
             return 1;
         } else {
+            // Calls function recursively.
             return recFactorial(aNum - 1) * aNum;
         }
     }
